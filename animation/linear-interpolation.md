@@ -40,6 +40,8 @@ linearInterpolation(0, 100, -1) // -100
 
 ➡️ [Cambiar de color](https://codepen.io/beaps/pen/GRpPXWJ)
 
+➡️ [Del punto A al punto B](https://codepen.io/beaps/pen/YzydgOR)
+
 Referencias:
 - <https://mattdesl.svbtle.com/linear-interpolation>
 - <https://en.wikipedia.org/wiki/Linear_interpolation>
