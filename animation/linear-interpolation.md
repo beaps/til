@@ -10,6 +10,7 @@ En en campo de los gráficos por ordenador (_computer graphics_) se le suele lla
  * @param {number} start - First value
  * @param {number} end - Second value
  * @param {number} v - Amount to interpolate
+ * @return {number} Interpolated value
  */
 function linearInterpolation(start, end, v) {
   return (1 - v) * start + v * end;
