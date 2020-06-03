@@ -11,6 +11,7 @@ Los valores fuera del rango no están sujetos a 0 y 1.
  * @param {number} min - The minimun value of the range
  * @param {number} max - The maximun value of the range
  * @param {number} value - The value to be normalized
+ * @returns {number} The normalized value.
  */
 function normalize(min, max, value) {
   return (value - min) / (max - min);
