@@ -7,10 +7,10 @@ En en campo de los gráficos por ordenador (_computer graphics_) se le suele lla
 ### Fórmula
 ```javascript
 /**
- * @param {number} start - First value
- * @param {number} end - Second value
- * @param {number} v - Amount to interpolate
- * @return {number} Interpolated value
+ * @param {number} start - The first value
+ * @param {number} end - The second value
+ * @param {number} v - The amount to interpolate
+ * @return {number} The interpolated value
  */
 function linearInterpolation(start, end, v) {
   return (1 - v) * start + v * end;
