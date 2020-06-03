@@ -4,7 +4,7 @@ La `interpolación lineal` te permite obtener un valor entre dos valores conocid
 
 En en campo de los gráficos por ordenador (_computer graphics_) se le suele llamar **lerp**.
 
-### Fórmula:
+### Fórmula
 ```javascript
 /**
  * @param {number} start - First value
@@ -16,7 +16,7 @@ function linearInterpolation(start, end, v) {
 }
 ```
 
-### Ejemplos:
+### Ejemplos
 ```javascript
 linearInterpolation(10, 20, 0) // 10
 linearInterpolation(10, 20, 1) // 20
@@ -33,7 +33,7 @@ linearInterpolation(0, 100, 2) // 200
 linearInterpolation(0, 100, -1) // -100
 ```
 
-### Demos:
+### Demos
 ➡️ [Mover el ratón sin interpolación lineal](https://codepen.io/beaps/pen/XWmxZej)
 
 ➡️ [Mover el ratón con interpolación lineal](https://codepen.io/beaps/pen/rNOqJEw)
@@ -42,7 +42,7 @@ linearInterpolation(0, 100, -1) // -100
 
 ➡️ [Del punto A al punto B](https://codepen.io/beaps/pen/YzydgOR)
 
-Referencias:
+#### Referencias
 - <https://mattdesl.svbtle.com/linear-interpolation>
 - <https://en.wikipedia.org/wiki/Linear_interpolation>
 - <https://www.trysmudford.com/blog/linear-interpolation-functions/>
