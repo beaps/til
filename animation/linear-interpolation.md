@@ -2,7 +2,7 @@
 
 La `interpolación lineal` te permite obtener un valor entre dos valores conocidos (_start_ y _end_) dado un valor (_v_) que es la cantidad a interpolar y que normalmente está entre 0 y 1 (donde 0 es _start_ y 1 es _end_).
 
-En en campo de los gráficos por ordenador (_computer graphics_) se le suele llamar **lerp**.
+En el campo de los gráficos por ordenador (_computer graphics_) se le suele llamar **lerp**.
 
 ### Fórmula
 ```javascript
